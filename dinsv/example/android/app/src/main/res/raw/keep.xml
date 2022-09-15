@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="R.anim.umcsdk*,
+    R.anim.demo_amin*,
+    R.drawable.umcsdk*,
+    R.drawable.demo_drawable*,
+    R.layout.layout_tendinsv*,
+    R.layout.demo_layout*,
+    R.id.tendinsv_view*" />

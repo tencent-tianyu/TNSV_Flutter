@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+<button id="TencentCaptchaBtn"
+        style="display:none"
+>
+</button>
+<script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+<script type="text/javascript">
+function startTencentCaptcha(appId,bizStateData){
+//绑定一个元素并手动传入场景Id和回调
+var captcha1 = new TencentCaptcha(
+    document.getElementById('TencentCaptchaBtn'),
+    appId,
+    function(res) {/* callback */
+JsBridge.getCaptchaCallBacks(res.ret,res.ticket,res.appid,res.bizState,res.randstr)
+    },
+    { bizState:  bizStateData}
+);
+captcha1.show(); // 显示验证码
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

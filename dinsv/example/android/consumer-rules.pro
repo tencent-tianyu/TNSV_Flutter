@@ -1,0 +1,7 @@
+-dontwarn com.cmic.gen.sdk.tencent.**
+-keep class com.cmic.gen.sdk.tencent.**{*;}
+-dontwarn com.sdk.tencent.**
+-keep class com.sdk.tencent.** { *;}
+-dontwarn com.unikuwei.mianmi.account.shield.tencent.**
+-keep class com.unikuwei.mianmi.account.shield.tencent.** {*;}
+-keep class cn.com.chinatelecom.account.api.**{*;}

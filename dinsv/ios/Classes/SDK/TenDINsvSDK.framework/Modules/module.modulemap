@@ -1,0 +1,6 @@
+framework module TenDINsvSDK {
+  umbrella header "TenDINsvSDK.h"
+
+  export *
+  module * { export * }
+}
